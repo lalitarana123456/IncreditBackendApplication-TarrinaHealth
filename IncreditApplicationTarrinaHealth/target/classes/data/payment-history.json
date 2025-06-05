@@ -1,0 +1,38 @@
+[
+  {
+    "user_id": 1,
+    "registration_date": "2022-01-10",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "age": 35,
+    "approx_annual_income_inr": 2000000,
+    "employment_status": "Salaried",
+    "orders": [
+      {
+        "order_id": "THPL-001",
+        "order_date": "2022-03-15",
+        "order_amount_inr": 50000.00,
+        "credit_extended_amount_inr": 50000.00,
+        "credit_tenure_months": 3,
+        "payment_due_date": "2022-06-15",
+        "payment_status": "PAID",
+        "last_payment_date": "2022-06-10",
+        "amount_paid_inr": 50000.00,
+        "days_outstanding_or_late": 0
+      },
+      {
+        "order_id": "THPL-002",
+        "order_date": "2023-02-20",
+        "order_amount_inr": 30000.00,
+        "credit_extended_amount_inr": 25000.00,
+        "credit_tenure_months": 6,
+        "payment_due_date": "2023-08-20",
+        "payment_status": "PAID",
+        "last_payment_date": "2023-08-30",
+        "amount_paid_inr": 25000.00,
+        "days_outstanding_or_late": 10
+      }
+    ],
+    "target_will_pay_on_time_next_credit": true
+  }
+]
